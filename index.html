@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sense Fons — Restaurante en Gràcia, junto al Park Güell</title>
+<meta name="description" content="Sense Fons: cocina catalana honesta y de mercado en el corazón de Gràcia, a un paso del Park Güell. Reserva tu mesa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-line" id="progressLine"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="brand">Sense Fons</a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#cocina" data-i18n="nav.cocina">Cocina</a>
+      <a href="#platos" data-i18n="nav.platos">Platos</a>
+      <a href="#sala" data-i18n="nav.sala">La sala</a>
+      <a href="#opiniones" data-i18n="nav.opiniones">Opiniones</a>
+      <a href="#visitanos" data-i18n="nav.visitanos">Visítanos</a>
+    </nav>
+    <div class="lang-switch" id="langSwitch" role="group" aria-label="Idioma">
+      <button type="button" class="lang-btn" data-lang="es">ES</button>
+      <button type="button" class="lang-btn" data-lang="ca">CA</button>
+      <button type="button" class="lang-btn" data-lang="en">EN</button>
+    </div>
+    <a href="tel:+34646195841" class="btn btn-ghost header-cta" data-i18n="nav.reservar">Reservar</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-media" aria-hidden="true"></div>
+    <div class="hero-content">
+      <p class="eyebrow reveal" data-i18n="hero.eyebrow">Gràcia, Barcelona — a 4 minutos del Park Güell</p>
+      <h1 class="reveal" data-i18n="hero.title" data-i18n-html="1">Cocina catalana<br>sin dar rodeos.</h1>
+      <p class="hero-sub reveal" data-i18n="hero.sub">Un local pequeño, llevado por su gente, donde el recetario de siempre se sirve sin artificios. Arroces, cannelloni de la abuela y postres que se hacen cada día.</p>
+      <div class="hero-actions reveal">
+        <a href="#visitanos" class="btn btn-primary" data-i18n="hero.cta1">Reservar mesa</a>
+        <a href="#platos" class="btn btn-text"><span data-i18n="hero.cta2">Ver los platos</span> <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-rating reveal">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <span data-i18n="hero.rating">4.9 sobre 106 reseñas en Google</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro" id="cocina">
+    <div class="intro-grid">
+      <div class="intro-label">
+        <span class="section-number">01</span>
+        <p class="section-kicker" data-i18n="intro.kicker">La casa</p>
+      </div>
+      <div class="intro-copy">
+        <p class="lead reveal" data-i18n="intro.lead">Sense Fons abrió sus puertas como el tipo de sitio al que uno vuelve: mesas de madera, luz de mimbre y una cocina que no necesita impresionar porque ya convence. Al pie del Park Güell, es parada obligada para quien sube al parque y descubrimiento feliz para quien vive en el barrio.</p>
+        <p class="reveal" data-i18n="intro.p2">La casa cuida cada plato como si fuera el único que sirve esa noche. Raciones generosas, producto de mercado y una carta corta que cambia lo justo para mantenerse honesta.</p>
+        <div class="intro-facts reveal">
+          <div class="fact">
+            <span class="fact-num" data-i18n="fact1.num">16€</span>
+            <span class="fact-label" data-i18n="fact1.label">Menú de mediodía, entre semana</span>
+          </div>
+          <div class="fact">
+            <span class="fact-num" data-i18n="fact2.num">28–33€</span>
+            <span class="fact-label" data-i18n="fact2.label">Menú de noches y fines de semana</span>
+          </div>
+          <div class="fact">
+            <span class="fact-num" data-i18n="fact3.num">106</span>
+            <span class="fact-label" data-i18n="fact3.label">Reseñas, 4.9 de media en Google</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIGNATURE DISHES -->
+  <section class="dishes" id="platos">
+    <div class="section-head">
+      <div class="intro-label">
+        <span class="section-number">02</span>
+        <p class="section-kicker" data-i18n="dishes.kicker">Lo más pedido</p>
+      </div>
+      <h2 class="reveal" data-i18n="dishes.title" data-i18n-html="1">Los platos por los que<br>vuelve la gente.</h2>
+    </div>
+
+    <div class="dish-list">
+      <article class="dish reveal">
+        <div class="dish-media">
+          <img src="assets/dish-rice.jpg" alt="Arroz de secreto de cerdo, jugoso y con el punto de cocción perfecto" data-i18n-alt="dish1.alt" loading="lazy">
+        </div>
+        <div class="dish-info">
+          <h3 data-i18n="dish1.title">Arroz de secreto</h3>
+          <p data-i18n="dish1.desc">El plato del que más se habla: caldo corto, carne en su punto y ese sabor que se queda. Se pide por raciones, para compartir en el centro de la mesa.</p>
+        </div>
+      </article>
+
+      <article class="dish dish-reverse reveal">
+        <div class="dish-media">
+          <img src="assets/dish-beef.jpg" alt="Tataki de ternera sellado, cortado fino, con guarnición" data-i18n-alt="dish2.alt" loading="lazy">
+        </div>
+        <div class="dish-info">
+          <h3 data-i18n="dish2.title">Tataki de ternera</h3>
+          <p data-i18n="dish2.desc">Sellado por fuera, crudo por dentro, cortado fino. Un guiño oriental servido con la naturalidad de una casa catalana.</p>
+        </div>
+      </article>
+
+      <article class="dish reveal">
+        <div class="dish-media">
+          <img src="assets/dish-burrata.jpg" alt="Ensalada de burrata con pesto de hummus" data-i18n-alt="dish3.alt" loading="lazy">
+        </div>
+        <div class="dish-info">
+          <h3 data-i18n="dish3.title">Burrata con pesto de hummus</h3>
+          <p data-i18n="dish3.desc">Cremosa, fresca y con un pesto de hummus que nadie espera y todos recuerdan. Entrante ligero, pensado para abrir apetito sin llenar.</p>
+        </div>
+      </article>
+
+      <article class="dish dish-reverse reveal">
+        <div class="dish-media">
+          <img src="assets/dish-pistachio.jpg" alt="Tarta de queso con pistacho triturado" data-i18n-alt="dish4.alt" loading="lazy">
+        </div>
+        <div class="dish-info">
+          <h3 data-i18n="dish4.title">Tarta de queso y pistacho</h3>
+          <p data-i18n="dish4.desc">Cremosa, con el crujiente del pistacho triturado por encima. El cierre perfecto de una comida sin prisas.</p>
+        </div>
+      </article>
+
+      <article class="dish reveal">
+        <div class="dish-media">
+          <img src="assets/dish-chocolate.jpg" alt="Coulant de chocolate recién hecho" data-i18n-alt="dish5.alt" loading="lazy">
+        </div>
+        <div class="dish-info">
+          <h3 data-i18n="dish5.title">Coulant de chocolate</h3>
+          <p data-i18n="dish5.desc">Caliente, líquido por dentro, sin trucos. También hay chocolate de sobrasada para quien busca algo más atrevido.</p>
+        </div>
+      </article>
+    </div>
+
+    <p class="dish-note reveal" data-i18n="dishes.note">La carta cambia según mercado. Cannelloni de pollo con bechamel de queso de cabra también habitual — pregunta por los platos del día.</p>
+  </section>
+
+  <!-- INTERIOR -->
+  <section class="interior" id="sala">
+    <div class="interior-grid">
+      <div class="interior-copy">
+        <div class="intro-label">
+          <span class="section-number">03</span>
+          <p class="section-kicker" data-i18n="interior.kicker">La sala</p>
+        </div>
+        <h2 class="reveal" data-i18n="interior.title">Pequeña a propósito.</h2>
+        <p class="reveal" data-i18n="interior.desc">Pocas mesas, mucha cercanía. Mesas de madera maciza, luz cálida de mimbre y un ambiente que invita a quedarse. Es un espacio íntimo — y precisamente por eso, recomendamos reservar con antelación, sobre todo en fin de semana.</p>
+        <a href="#visitanos" class="btn btn-primary reveal" data-i18n="interior.cta">Reservar mesa</a>
+      </div>
+      <div class="interior-media reveal">
+        <img src="assets/interior.jpg" alt="Interior del comedor de Sense Fons, con mesas de madera y luz cálida" data-i18n-alt="interior.alt" loading="lazy">
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="opiniones">
+    <div class="section-head">
+      <div class="intro-label">
+        <span class="section-number">04</span>
+        <p class="section-kicker" data-i18n="reviews.kicker">Lo que dicen</p>
+      </div>
+      <h2 class="reveal" data-i18n="reviews.title">Comensales, no marketing.</h2>
+    </div>
+    <div class="review-list">
+      <blockquote class="review reveal">
+        <p data-i18n="review1.quote">«Arroz de secreto sabrosísimo y con la carne en su punto. Raciones muy generosas.»</p>
+        <cite data-i18n="review1.cite">Reseña en Google</cite>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p data-i18n="review2.quote">«Cocina honesta y bien hecha, con producto de verdad. Se nota que cocinan como en casa.»</p>
+        <cite data-i18n="review2.cite">Reseña en Tripadvisor</cite>
+      </blockquote>
+      <blockquote class="review reveal">
+        <p data-i18n="review3.quote">«Un sitio pequeño y acogedor, perfecto para escapar del ajetreo del centro. Reserva antes de subir al parque.»</p>
+        <cite data-i18n="review3.cite">Reseña de visitante</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- VISIT / LOCATION -->
+  <section class="visit" id="visitanos">
+    <div class="visit-grid">
+      <div class="visit-info">
+        <div class="intro-label">
+          <span class="section-number">05</span>
+          <p class="section-kicker" data-i18n="visit.kicker">Visítanos</p>
+        </div>
+        <h2 class="reveal" data-i18n="visit.title" data-i18n-html="1">A un paseo del<br>Park Güell.</h2>
+
+        <dl class="visit-details reveal">
+          <div>
+            <dt data-i18n="visit.dirLabel">Dirección</dt>
+            <dd><a href="https://maps.app.goo.gl/o1m49mak6ypUNcbW7" target="_blank" rel="noopener">Trav. de Dalt, 104, Gràcia, 08024 Barcelona</a></dd>
+          </div>
+          <div>
+            <dt data-i18n="visit.phoneLabel">Teléfono</dt>
+            <dd><a href="tel:+34646195841">+34 646 19 58 41</a></dd>
+          </div>
+          <div>
+            <dt data-i18n="visit.hoursLabel">Horario</dt>
+            <dd data-i18n="visit.hoursValue" data-i18n-html="1">Todos los días, 9:30 – 16:30<br>Noches selectas — consultar disponibilidad</dd>
+          </div>
+          <div>
+            <dt data-i18n="visit.priceLabel">Precio</dt>
+            <dd data-i18n="visit.priceValue">Menú mediodía 16€ · Noches y finde 28–33€</dd>
+          </div>
+        </dl>
+
+        <div class="visit-actions reveal">
+          <a href="tel:+34646195841" class="btn btn-primary" data-i18n="visit.cta1">Llamar para reservar</a>
+          <a href="https://maps.app.goo.gl/o1m49mak6ypUNcbW7" target="_blank" rel="noopener" class="btn btn-text"><span data-i18n="visit.cta2">Cómo llegar</span> <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="visit-map reveal">
+        <iframe
+          title="Mapa de ubicación de Sense Fons"
+          src="https://www.google.com/maps?q=Trav.+de+Dalt,+104,+08024+Barcelona&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">Sense Fons</div>
+    <div class="footer-meta">
+      <span>Trav. de Dalt, 104, Gràcia, Barcelona</span>
+      <span>+34 646 19 58 41</span>
+    </div>
+    <a href="#visitanos" class="btn btn-ghost" data-i18n="footer.cta">Reservar mesa</a>
+  </div>
+</footer>
+
+<script src="translations.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
